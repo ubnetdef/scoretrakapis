@@ -1,4 +1,4 @@
-module github.com/UBNetDef/scoretrakapis
+module github.com/ubnetdef/scoretrakapis
 
 go 1.26.2
 
