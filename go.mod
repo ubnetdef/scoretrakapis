@@ -1,4 +1,4 @@
-module github.com/ScoreTrak/scoretrakapis
+module github.com/UBNetDef/scoretrakapis
 
 go 1.26.2
 
