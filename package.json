@@ -1,0 +1,7 @@
+{
+  "name": "scoretrakapis",
+  "version": "1.0.0",
+  "description": "Generated gRPC-Web TypeScript bindings for ScoreTrak APIs",
+  "files": ["gen/ts"],
+  "license": "MIT"
+}
