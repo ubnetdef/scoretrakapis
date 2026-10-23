@@ -7,7 +7,7 @@
 package userv2
 
 import (
-	v1 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/proto/v1"
+	v1 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/proto/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -707,8 +707,8 @@ const file_scoretrak_user_v2_user_proto_rawDesc = "" +
 	"\x06Delete\x12+.scoretrak.user.v2.UserServiceDeleteRequest\x1a,.scoretrak.user.v2.UserServiceDeleteResponse\"\x00\x12b\n" +
 	"\x05Store\x12*.scoretrak.user.v2.UserServiceStoreRequest\x1a+.scoretrak.user.v2.UserServiceStoreResponse\"\x00\x12e\n" +
 	"\x06Update\x12+.scoretrak.user.v2.UserServiceUpdateRequest\x1a,.scoretrak.user.v2.UserServiceUpdateResponse\"\x00\x12z\n" +
-	"\rGetByUsername\x122.scoretrak.user.v2.UserServiceGetByUsernameRequest\x1a3.scoretrak.user.v2.UserServiceGetByUsernameResponse\"\x00B\xd2\x01\n" +
-	"\x15com.scoretrak.user.v2B\tUserProtoP\x01ZHgithub.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/user/v2;userv2\xa2\x02\x03SUX\xaa\x02\x11Scoretrak.User.V2\xca\x02\x11Scoretrak\\User\\V2\xe2\x02\x1dScoretrak\\User\\V2\\GPBMetadata\xea\x02\x13Scoretrak::User::V2b\x06proto3"
+	"\rGetByUsername\x122.scoretrak.user.v2.UserServiceGetByUsernameRequest\x1a3.scoretrak.user.v2.UserServiceGetByUsernameResponse\"\x00B\xd1\x01\n" +
+	"\x15com.scoretrak.user.v2B\tUserProtoP\x01ZGgithub.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/user/v2;userv2\xa2\x02\x03SUX\xaa\x02\x11Scoretrak.User.V2\xca\x02\x11Scoretrak\\User\\V2\xe2\x02\x1dScoretrak\\User\\V2\\GPBMetadata\xea\x02\x13Scoretrak::User::V2b\x06proto3"
 
 var (
 	file_scoretrak_user_v2_user_proto_rawDescOnce sync.Once

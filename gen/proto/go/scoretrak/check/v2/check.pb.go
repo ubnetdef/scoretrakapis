@@ -7,7 +7,7 @@
 package checkv2
 
 import (
-	v1 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/proto/v1"
+	v1 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/proto/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	wrapperspb "google.golang.org/protobuf/types/known/wrapperspb"
@@ -401,9 +401,9 @@ const file_scoretrak_check_v2_check_proto_rawDesc = "" +
 	"\fCheckService\x12\x84\x01\n" +
 	"\x0fGetAllByRoundID\x126.scoretrak.check.v2.CheckServiceGetAllByRoundIDRequest\x1a7.scoretrak.check.v2.CheckServiceGetAllByRoundIDResponse\"\x00\x12\x90\x01\n" +
 	"\x13GetByRoundServiceID\x12:.scoretrak.check.v2.CheckServiceGetByRoundServiceIDRequest\x1a;.scoretrak.check.v2.CheckServiceGetByRoundServiceIDResponse\"\x00\x12\x8a\x01\n" +
-	"\x11GetAllByServiceID\x128.scoretrak.check.v2.CheckServiceGetAllByServiceIDRequest\x1a9.scoretrak.check.v2.CheckServiceGetAllByServiceIDResponse\"\x00B\xda\x01\n" +
+	"\x11GetAllByServiceID\x128.scoretrak.check.v2.CheckServiceGetAllByServiceIDRequest\x1a9.scoretrak.check.v2.CheckServiceGetAllByServiceIDResponse\"\x00B\xd9\x01\n" +
 	"\x16com.scoretrak.check.v2B\n" +
-	"CheckProtoP\x01ZJgithub.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/check/v2;checkv2\xa2\x02\x03SCX\xaa\x02\x12Scoretrak.Check.V2\xca\x02\x12Scoretrak\\Check\\V2\xe2\x02\x1eScoretrak\\Check\\V2\\GPBMetadata\xea\x02\x14Scoretrak::Check::V2b\x06proto3"
+	"CheckProtoP\x01ZIgithub.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/check/v2;checkv2\xa2\x02\x03SCX\xaa\x02\x12Scoretrak.Check.V2\xca\x02\x12Scoretrak\\Check\\V2\xe2\x02\x1eScoretrak\\Check\\V2\\GPBMetadata\xea\x02\x14Scoretrak::Check::V2b\x06proto3"
 
 var (
 	file_scoretrak_check_v2_check_proto_rawDescOnce sync.Once

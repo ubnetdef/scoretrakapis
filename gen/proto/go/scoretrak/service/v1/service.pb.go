@@ -7,9 +7,9 @@
 package servicev1
 
 import (
-	v12 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/check/v1"
-	v11 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/property/v1"
-	v1 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/proto/v1"
+	v12 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/check/v1"
+	v11 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/property/v1"
+	v1 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/proto/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	wrapperspb "google.golang.org/protobuf/types/known/wrapperspb"
@@ -720,8 +720,8 @@ const file_scoretrak_service_v1_service_proto_rawDesc = "" +
 	"\x06Delete\x12#.scoretrak.service.v1.DeleteRequest\x1a$.scoretrak.service.v1.DeleteResponse\"\x00\x12R\n" +
 	"\x05Store\x12\".scoretrak.service.v1.StoreRequest\x1a#.scoretrak.service.v1.StoreResponse\"\x00\x12U\n" +
 	"\x06Update\x12#.scoretrak.service.v1.UpdateRequest\x1a$.scoretrak.service.v1.UpdateResponse\"\x00\x12d\n" +
-	"\vTestService\x12(.scoretrak.service.v1.TestServiceRequest\x1a).scoretrak.service.v1.TestServiceResponse\"\x00B\xea\x01\n" +
-	"\x18com.scoretrak.service.v1B\fServiceProtoP\x01ZNgithub.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/service/v1;servicev1\xa2\x02\x03SSX\xaa\x02\x14Scoretrak.Service.V1\xca\x02\x14Scoretrak\\Service\\V1\xe2\x02 Scoretrak\\Service\\V1\\GPBMetadata\xea\x02\x16Scoretrak::Service::V1b\x06proto3"
+	"\vTestService\x12(.scoretrak.service.v1.TestServiceRequest\x1a).scoretrak.service.v1.TestServiceResponse\"\x00B\xe9\x01\n" +
+	"\x18com.scoretrak.service.v1B\fServiceProtoP\x01ZMgithub.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/service/v1;servicev1\xa2\x02\x03SSX\xaa\x02\x14Scoretrak.Service.V1\xca\x02\x14Scoretrak\\Service\\V1\xe2\x02 Scoretrak\\Service\\V1\\GPBMetadata\xea\x02\x16Scoretrak::Service::V1b\x06proto3"
 
 var (
 	file_scoretrak_service_v1_service_proto_rawDescOnce sync.Once

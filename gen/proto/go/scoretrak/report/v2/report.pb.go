@@ -251,8 +251,8 @@ const file_scoretrak_report_v2_report_proto_rawDesc = "" +
 	"\x06report\x18\x01 \x01(\v2\x1b.scoretrak.report.v2.ReportR\x06report2\xec\x01\n" +
 	"\rReportService\x12f\n" +
 	"\x03Get\x12,.scoretrak.report.v2.ReportServiceGetRequest\x1a-.scoretrak.report.v2.ReportServiceGetResponse\"\x000\x01\x12s\n" +
-	"\bGetUnary\x121.scoretrak.report.v2.ReportServiceGetUnaryRequest\x1a2.scoretrak.report.v2.ReportServiceGetUnaryResponse\"\x00B\xe2\x01\n" +
-	"\x17com.scoretrak.report.v2B\vReportProtoP\x01ZLgithub.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/report/v2;reportv2\xa2\x02\x03SRX\xaa\x02\x13Scoretrak.Report.V2\xca\x02\x13Scoretrak\\Report\\V2\xe2\x02\x1fScoretrak\\Report\\V2\\GPBMetadata\xea\x02\x15Scoretrak::Report::V2b\x06proto3"
+	"\bGetUnary\x121.scoretrak.report.v2.ReportServiceGetUnaryRequest\x1a2.scoretrak.report.v2.ReportServiceGetUnaryResponse\"\x00B\xe1\x01\n" +
+	"\x17com.scoretrak.report.v2B\vReportProtoP\x01ZKgithub.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/report/v2;reportv2\xa2\x02\x03SRX\xaa\x02\x13Scoretrak.Report.V2\xca\x02\x13Scoretrak\\Report\\V2\xe2\x02\x1fScoretrak\\Report\\V2\\GPBMetadata\xea\x02\x15Scoretrak::Report::V2b\x06proto3"
 
 var (
 	file_scoretrak_report_v2_report_proto_rawDescOnce sync.Once

@@ -71,8 +71,8 @@ const file_scoretrak_proto_v1_uuid_proto_rawDesc = "" +
 	"\n" +
 	"\x1dscoretrak/proto/v1/uuid.proto\x12\x12scoretrak.proto.v1\"\x1c\n" +
 	"\x04UUID\x12\x14\n" +
-	"\x05value\x18\x01 \x01(\tR\x05valueB\xd9\x01\n" +
-	"\x16com.scoretrak.proto.v1B\tUuidProtoP\x01ZJgithub.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/proto/v1;protov1\xa2\x02\x03SPX\xaa\x02\x12Scoretrak.Proto.V1\xca\x02\x12Scoretrak\\Proto\\V1\xe2\x02\x1eScoretrak\\Proto\\V1\\GPBMetadata\xea\x02\x14Scoretrak::Proto::V1b\x06proto3"
+	"\x05value\x18\x01 \x01(\tR\x05valueB\xd8\x01\n" +
+	"\x16com.scoretrak.proto.v1B\tUuidProtoP\x01ZIgithub.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/proto/v1;protov1\xa2\x02\x03SPX\xaa\x02\x12Scoretrak.Proto.V1\xca\x02\x12Scoretrak\\Proto\\V1\xe2\x02\x1eScoretrak\\Proto\\V1\\GPBMetadata\xea\x02\x14Scoretrak::Proto::V1b\x06proto3"
 
 var (
 	file_scoretrak_proto_v1_uuid_proto_rawDescOnce sync.Once

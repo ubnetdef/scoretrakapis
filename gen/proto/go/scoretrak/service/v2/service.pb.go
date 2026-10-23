@@ -7,9 +7,9 @@
 package servicev2
 
 import (
-	v21 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/check/v2"
-	v2 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/property/v2"
-	v1 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/proto/v1"
+	v21 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/check/v2"
+	v2 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/property/v2"
+	v1 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/proto/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	wrapperspb "google.golang.org/protobuf/types/known/wrapperspb"
@@ -720,8 +720,8 @@ const file_scoretrak_service_v2_service_proto_rawDesc = "" +
 	"\x06Delete\x121.scoretrak.service.v2.ServiceServiceDeleteRequest\x1a2.scoretrak.service.v2.ServiceServiceDeleteResponse\"\x00\x12n\n" +
 	"\x05Store\x120.scoretrak.service.v2.ServiceServiceStoreRequest\x1a1.scoretrak.service.v2.ServiceServiceStoreResponse\"\x00\x12q\n" +
 	"\x06Update\x121.scoretrak.service.v2.ServiceServiceUpdateRequest\x1a2.scoretrak.service.v2.ServiceServiceUpdateResponse\"\x00\x12\x80\x01\n" +
-	"\vTestService\x126.scoretrak.service.v2.ServiceServiceTestServiceRequest\x1a7.scoretrak.service.v2.ServiceServiceTestServiceResponse\"\x00B\xea\x01\n" +
-	"\x18com.scoretrak.service.v2B\fServiceProtoP\x01ZNgithub.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/service/v2;servicev2\xa2\x02\x03SSX\xaa\x02\x14Scoretrak.Service.V2\xca\x02\x14Scoretrak\\Service\\V2\xe2\x02 Scoretrak\\Service\\V2\\GPBMetadata\xea\x02\x16Scoretrak::Service::V2b\x06proto3"
+	"\vTestService\x126.scoretrak.service.v2.ServiceServiceTestServiceRequest\x1a7.scoretrak.service.v2.ServiceServiceTestServiceResponse\"\x00B\xe9\x01\n" +
+	"\x18com.scoretrak.service.v2B\fServiceProtoP\x01ZMgithub.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/service/v2;servicev2\xa2\x02\x03SSX\xaa\x02\x14Scoretrak.Service.V2\xca\x02\x14Scoretrak\\Service\\V2\xe2\x02 Scoretrak\\Service\\V2\\GPBMetadata\xea\x02\x16Scoretrak::Service::V2b\x06proto3"
 
 var (
 	file_scoretrak_service_v2_service_proto_rawDescOnce sync.Once

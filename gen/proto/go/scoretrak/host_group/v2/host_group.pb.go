@@ -7,8 +7,8 @@
 package host_groupv2
 
 import (
-	v2 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/host/v2"
-	v1 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/proto/v1"
+	v2 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/host/v2"
+	v1 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/proto/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	wrapperspb "google.golang.org/protobuf/types/known/wrapperspb"
@@ -553,8 +553,8 @@ const file_scoretrak_host_group_v2_host_group_proto_rawDesc = "" +
 	"\aGetByID\x127.scoretrak.host_group.v2.HostGroupServiceGetByIDRequest\x1a8.scoretrak.host_group.v2.HostGroupServiceGetByIDResponse\"\x00\x12{\n" +
 	"\x06Delete\x126.scoretrak.host_group.v2.HostGroupServiceDeleteRequest\x1a7.scoretrak.host_group.v2.HostGroupServiceDeleteResponse\"\x00\x12x\n" +
 	"\x05Store\x125.scoretrak.host_group.v2.HostGroupServiceStoreRequest\x1a6.scoretrak.host_group.v2.HostGroupServiceStoreResponse\"\x00\x12{\n" +
-	"\x06Update\x126.scoretrak.host_group.v2.HostGroupServiceUpdateRequest\x1a7.scoretrak.host_group.v2.HostGroupServiceUpdateResponse\"\x00B\xfd\x01\n" +
-	"\x1bcom.scoretrak.host_group.v2B\x0eHostGroupProtoP\x01ZTgithub.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/host_group/v2;host_groupv2\xa2\x02\x03SHX\xaa\x02\x16Scoretrak.HostGroup.V2\xca\x02\x16Scoretrak\\HostGroup\\V2\xe2\x02\"Scoretrak\\HostGroup\\V2\\GPBMetadata\xea\x02\x18Scoretrak::HostGroup::V2b\x06proto3"
+	"\x06Update\x126.scoretrak.host_group.v2.HostGroupServiceUpdateRequest\x1a7.scoretrak.host_group.v2.HostGroupServiceUpdateResponse\"\x00B\xfc\x01\n" +
+	"\x1bcom.scoretrak.host_group.v2B\x0eHostGroupProtoP\x01ZSgithub.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/host_group/v2;host_groupv2\xa2\x02\x03SHX\xaa\x02\x16Scoretrak.HostGroup.V2\xca\x02\x16Scoretrak\\HostGroup\\V2\xe2\x02\"Scoretrak\\HostGroup\\V2\\GPBMetadata\xea\x02\x18Scoretrak::HostGroup::V2b\x06proto3"
 
 var (
 	file_scoretrak_host_group_v2_host_group_proto_rawDescOnce sync.Once

@@ -363,8 +363,8 @@ const file_scoretrak_policy_v1_policy_proto_rawDesc = "" +
 	"\rPolicyService\x12L\n" +
 	"\x03Get\x12\x1f.scoretrak.policy.v1.GetRequest\x1a .scoretrak.policy.v1.GetResponse\"\x000\x01\x12Y\n" +
 	"\bGetUnary\x12$.scoretrak.policy.v1.GetUnaryRequest\x1a%.scoretrak.policy.v1.GetUnaryResponse\"\x00\x12S\n" +
-	"\x06Update\x12\".scoretrak.policy.v1.UpdateRequest\x1a#.scoretrak.policy.v1.UpdateResponse\"\x00B\xe2\x01\n" +
-	"\x17com.scoretrak.policy.v1B\vPolicyProtoP\x01ZLgithub.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/policy/v1;policyv1\xa2\x02\x03SPX\xaa\x02\x13Scoretrak.Policy.V1\xca\x02\x13Scoretrak\\Policy\\V1\xe2\x02\x1fScoretrak\\Policy\\V1\\GPBMetadata\xea\x02\x15Scoretrak::Policy::V1b\x06proto3"
+	"\x06Update\x12\".scoretrak.policy.v1.UpdateRequest\x1a#.scoretrak.policy.v1.UpdateResponse\"\x00B\xe1\x01\n" +
+	"\x17com.scoretrak.policy.v1B\vPolicyProtoP\x01ZKgithub.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/policy/v1;policyv1\xa2\x02\x03SPX\xaa\x02\x13Scoretrak.Policy.V1\xca\x02\x13Scoretrak\\Policy\\V1\xe2\x02\x1fScoretrak\\Policy\\V1\\GPBMetadata\xea\x02\x15Scoretrak::Policy::V1b\x06proto3"
 
 var (
 	file_scoretrak_policy_v1_policy_proto_rawDescOnce sync.Once

@@ -7,18 +7,18 @@
 package competitionv1
 
 import (
-	v19 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/check/v1"
-	v1 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/config/v1"
-	v13 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/host/v1"
-	v12 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/host_group/v1"
-	v111 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/policy/v1"
-	v18 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/property/v1"
-	v11 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/report/v1"
-	v17 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/round/v1"
-	v15 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/service/v1"
-	v16 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/service_group/v1"
-	v14 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/team/v1"
-	v110 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/user/v1"
+	v19 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/check/v1"
+	v1 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/config/v1"
+	v13 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/host/v1"
+	v12 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/host_group/v1"
+	v111 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/policy/v1"
+	v18 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/property/v1"
+	v11 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/report/v1"
+	v17 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/round/v1"
+	v15 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/service/v1"
+	v16 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/service_group/v1"
+	v14 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/team/v1"
+	v110 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/user/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -589,8 +589,8 @@ const file_scoretrak_competition_v1_competition_proto_rawDesc = "" +
 	"\x14FetchCoreCompetition\x125.scoretrak.competition.v1.FetchCoreCompetitionRequest\x1a6.scoretrak.competition.v1.FetchCoreCompetitionResponse\"\x00\x12\x8d\x01\n" +
 	"\x16FetchEntireCompetition\x127.scoretrak.competition.v1.FetchEntireCompetitionRequest\x1a8.scoretrak.competition.v1.FetchEntireCompetitionResponse\"\x00\x12l\n" +
 	"\vResetScores\x12,.scoretrak.competition.v1.ResetScoresRequest\x1a-.scoretrak.competition.v1.ResetScoresResponse\"\x00\x12~\n" +
-	"\x11DeleteCompetition\x122.scoretrak.competition.v1.DeleteCompetitionRequest\x1a3.scoretrak.competition.v1.DeleteCompetitionResponse\"\x00B\x8a\x02\n" +
-	"\x1ccom.scoretrak.competition.v1B\x10CompetitionProtoP\x01ZVgithub.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/competition/v1;competitionv1\xa2\x02\x03SCX\xaa\x02\x18Scoretrak.Competition.V1\xca\x02\x18Scoretrak\\Competition\\V1\xe2\x02$Scoretrak\\Competition\\V1\\GPBMetadata\xea\x02\x1aScoretrak::Competition::V1b\x06proto3"
+	"\x11DeleteCompetition\x122.scoretrak.competition.v1.DeleteCompetitionRequest\x1a3.scoretrak.competition.v1.DeleteCompetitionResponse\"\x00B\x89\x02\n" +
+	"\x1ccom.scoretrak.competition.v1B\x10CompetitionProtoP\x01ZUgithub.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/competition/v1;competitionv1\xa2\x02\x03SCX\xaa\x02\x18Scoretrak.Competition.V1\xca\x02\x18Scoretrak\\Competition\\V1\xe2\x02$Scoretrak\\Competition\\V1\\GPBMetadata\xea\x02\x1aScoretrak::Competition::V1b\x06proto3"
 
 var (
 	file_scoretrak_competition_v1_competition_proto_rawDescOnce sync.Once

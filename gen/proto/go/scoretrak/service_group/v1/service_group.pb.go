@@ -7,8 +7,8 @@
 package service_groupv1
 
 import (
-	v1 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/proto/v1"
-	v11 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/service/v1"
+	v1 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/proto/v1"
+	v11 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/service/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	wrapperspb "google.golang.org/protobuf/types/known/wrapperspb"
@@ -652,8 +652,8 @@ const file_scoretrak_service_group_v1_service_group_proto_rawDesc = "" +
 	"\x06Delete\x12).scoretrak.service_group.v1.DeleteRequest\x1a*.scoretrak.service_group.v1.DeleteResponse\"\x00\x12^\n" +
 	"\x05Store\x12(.scoretrak.service_group.v1.StoreRequest\x1a).scoretrak.service_group.v1.StoreResponse\"\x00\x12a\n" +
 	"\x06Update\x12).scoretrak.service_group.v1.UpdateRequest\x1a*.scoretrak.service_group.v1.UpdateResponse\"\x00\x12g\n" +
-	"\bRedeploy\x12+.scoretrak.service_group.v1.RedeployRequest\x1a,.scoretrak.service_group.v1.RedeployResponse\"\x00B\x95\x02\n" +
-	"\x1ecom.scoretrak.service_group.v1B\x11ServiceGroupProtoP\x01ZZgithub.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/service_group/v1;service_groupv1\xa2\x02\x03SSX\xaa\x02\x19Scoretrak.ServiceGroup.V1\xca\x02\x19Scoretrak\\ServiceGroup\\V1\xe2\x02%Scoretrak\\ServiceGroup\\V1\\GPBMetadata\xea\x02\x1bScoretrak::ServiceGroup::V1b\x06proto3"
+	"\bRedeploy\x12+.scoretrak.service_group.v1.RedeployRequest\x1a,.scoretrak.service_group.v1.RedeployResponse\"\x00B\x94\x02\n" +
+	"\x1ecom.scoretrak.service_group.v1B\x11ServiceGroupProtoP\x01ZYgithub.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/service_group/v1;service_groupv1\xa2\x02\x03SSX\xaa\x02\x19Scoretrak.ServiceGroup.V1\xca\x02\x19Scoretrak\\ServiceGroup\\V1\xe2\x02%Scoretrak\\ServiceGroup\\V1\\GPBMetadata\xea\x02\x1bScoretrak::ServiceGroup::V1b\x06proto3"
 
 var (
 	file_scoretrak_service_group_v1_service_group_proto_rawDescOnce sync.Once

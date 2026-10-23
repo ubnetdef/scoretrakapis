@@ -177,8 +177,8 @@ const file_grpc_health_v1_health_proto_rawDesc = "" +
 	"\x0fSERVICE_UNKNOWN\x10\x032\xae\x01\n" +
 	"\x06Health\x12P\n" +
 	"\x05Check\x12\".grpc.health.v1.HealthCheckRequest\x1a#.grpc.health.v1.HealthCheckResponse\x12R\n" +
-	"\x05Watch\x12\".grpc.health.v1.HealthCheckRequest\x1a#.grpc.health.v1.HealthCheckResponse0\x01B\xc4\x01\n" +
-	"\x12com.grpc.health.v1B\vHealthProtoP\x01ZGgithub.com/ScoreTrak/scoretrakapis/gen/proto/go/grpc/health/v1;healthv1\xa2\x02\x03GHX\xaa\x02\x0eGrpc.Health.V1\xca\x02\x0eGrpc\\Health\\V1\xe2\x02\x1aGrpc\\Health\\V1\\GPBMetadata\xea\x02\x10Grpc::Health::V1b\x06proto3"
+	"\x05Watch\x12\".grpc.health.v1.HealthCheckRequest\x1a#.grpc.health.v1.HealthCheckResponse0\x01B\xc3\x01\n" +
+	"\x12com.grpc.health.v1B\vHealthProtoP\x01ZFgithub.com/ubnetdef/scoretrakapis/gen/proto/go/grpc/health/v1;healthv1\xa2\x02\x03GHX\xaa\x02\x0eGrpc.Health.V1\xca\x02\x0eGrpc\\Health\\V1\xe2\x02\x1aGrpc\\Health\\V1\\GPBMetadata\xea\x02\x10Grpc::Health::V1b\x06proto3"
 
 var (
 	file_grpc_health_v1_health_proto_rawDescOnce sync.Once

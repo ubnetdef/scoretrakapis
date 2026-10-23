@@ -7,8 +7,8 @@
 package service_groupv2
 
 import (
-	v1 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/proto/v1"
-	v2 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/service/v2"
+	v1 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/proto/v1"
+	v2 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/service/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	wrapperspb "google.golang.org/protobuf/types/known/wrapperspb"
@@ -652,8 +652,8 @@ const file_scoretrak_service_group_v2_service_group_proto_rawDesc = "" +
 	"\x06Delete\x12<.scoretrak.service_group.v2.ServiceGroupServiceDeleteRequest\x1a=.scoretrak.service_group.v2.ServiceGroupServiceDeleteResponse\"\x00\x12\x84\x01\n" +
 	"\x05Store\x12;.scoretrak.service_group.v2.ServiceGroupServiceStoreRequest\x1a<.scoretrak.service_group.v2.ServiceGroupServiceStoreResponse\"\x00\x12\x87\x01\n" +
 	"\x06Update\x12<.scoretrak.service_group.v2.ServiceGroupServiceUpdateRequest\x1a=.scoretrak.service_group.v2.ServiceGroupServiceUpdateResponse\"\x00\x12\x8d\x01\n" +
-	"\bRedeploy\x12>.scoretrak.service_group.v2.ServiceGroupServiceRedeployRequest\x1a?.scoretrak.service_group.v2.ServiceGroupServiceRedeployResponse\"\x00B\x95\x02\n" +
-	"\x1ecom.scoretrak.service_group.v2B\x11ServiceGroupProtoP\x01ZZgithub.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/service_group/v2;service_groupv2\xa2\x02\x03SSX\xaa\x02\x19Scoretrak.ServiceGroup.V2\xca\x02\x19Scoretrak\\ServiceGroup\\V2\xe2\x02%Scoretrak\\ServiceGroup\\V2\\GPBMetadata\xea\x02\x1bScoretrak::ServiceGroup::V2b\x06proto3"
+	"\bRedeploy\x12>.scoretrak.service_group.v2.ServiceGroupServiceRedeployRequest\x1a?.scoretrak.service_group.v2.ServiceGroupServiceRedeployResponse\"\x00B\x94\x02\n" +
+	"\x1ecom.scoretrak.service_group.v2B\x11ServiceGroupProtoP\x01ZYgithub.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/service_group/v2;service_groupv2\xa2\x02\x03SSX\xaa\x02\x19Scoretrak.ServiceGroup.V2\xca\x02\x19Scoretrak\\ServiceGroup\\V2\xe2\x02%Scoretrak\\ServiceGroup\\V2\\GPBMetadata\xea\x02\x1bScoretrak::ServiceGroup::V2b\x06proto3"
 
 var (
 	file_scoretrak_service_group_v2_service_group_proto_rawDescOnce sync.Once

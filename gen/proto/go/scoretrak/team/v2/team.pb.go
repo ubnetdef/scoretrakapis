@@ -7,9 +7,9 @@
 package teamv2
 
 import (
-	v2 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/host/v2"
-	v1 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/proto/v1"
-	v21 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/user/v2"
+	v2 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/host/v2"
+	v1 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/proto/v1"
+	v21 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/user/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	wrapperspb "google.golang.org/protobuf/types/known/wrapperspb"
@@ -568,8 +568,8 @@ const file_scoretrak_team_v2_team_proto_rawDesc = "" +
 	"\aGetByID\x12,.scoretrak.team.v2.TeamServiceGetByIDRequest\x1a-.scoretrak.team.v2.TeamServiceGetByIDResponse\"\x00\x12e\n" +
 	"\x06Delete\x12+.scoretrak.team.v2.TeamServiceDeleteRequest\x1a,.scoretrak.team.v2.TeamServiceDeleteResponse\"\x00\x12b\n" +
 	"\x05Store\x12*.scoretrak.team.v2.TeamServiceStoreRequest\x1a+.scoretrak.team.v2.TeamServiceStoreResponse\"\x00\x12e\n" +
-	"\x06Update\x12+.scoretrak.team.v2.TeamServiceUpdateRequest\x1a,.scoretrak.team.v2.TeamServiceUpdateResponse\"\x00B\xd2\x01\n" +
-	"\x15com.scoretrak.team.v2B\tTeamProtoP\x01ZHgithub.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/team/v2;teamv2\xa2\x02\x03STX\xaa\x02\x11Scoretrak.Team.V2\xca\x02\x11Scoretrak\\Team\\V2\xe2\x02\x1dScoretrak\\Team\\V2\\GPBMetadata\xea\x02\x13Scoretrak::Team::V2b\x06proto3"
+	"\x06Update\x12+.scoretrak.team.v2.TeamServiceUpdateRequest\x1a,.scoretrak.team.v2.TeamServiceUpdateResponse\"\x00B\xd1\x01\n" +
+	"\x15com.scoretrak.team.v2B\tTeamProtoP\x01ZGgithub.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/team/v2;teamv2\xa2\x02\x03STX\xaa\x02\x11Scoretrak.Team.V2\xca\x02\x11Scoretrak\\Team\\V2\xe2\x02\x1dScoretrak\\Team\\V2\\GPBMetadata\xea\x02\x13Scoretrak::Team::V2b\x06proto3"
 
 var (
 	file_scoretrak_team_v2_team_proto_rawDescOnce sync.Once

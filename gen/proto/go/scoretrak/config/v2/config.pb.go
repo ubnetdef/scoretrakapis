@@ -335,8 +335,8 @@ const file_scoretrak_config_v2_config_proto_rawDesc = "" +
 	"\x03Get\x123.scoretrak.config.v2.DynamicConfigServiceGetRequest\x1a4.scoretrak.config.v2.DynamicConfigServiceGetResponse\"\x00\x12{\n" +
 	"\x06Update\x126.scoretrak.config.v2.DynamicConfigServiceUpdateRequest\x1a7.scoretrak.config.v2.DynamicConfigServiceUpdateResponse\"\x002\x87\x01\n" +
 	"\x13StaticConfigService\x12p\n" +
-	"\x03Get\x122.scoretrak.config.v2.StaticConfigServiceGetRequest\x1a3.scoretrak.config.v2.StaticConfigServiceGetResponse\"\x00B\xe2\x01\n" +
-	"\x17com.scoretrak.config.v2B\vConfigProtoP\x01ZLgithub.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/config/v2;configv2\xa2\x02\x03SCX\xaa\x02\x13Scoretrak.Config.V2\xca\x02\x13Scoretrak\\Config\\V2\xe2\x02\x1fScoretrak\\Config\\V2\\GPBMetadata\xea\x02\x15Scoretrak::Config::V2b\x06proto3"
+	"\x03Get\x122.scoretrak.config.v2.StaticConfigServiceGetRequest\x1a3.scoretrak.config.v2.StaticConfigServiceGetResponse\"\x00B\xe1\x01\n" +
+	"\x17com.scoretrak.config.v2B\vConfigProtoP\x01ZKgithub.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/config/v2;configv2\xa2\x02\x03SCX\xaa\x02\x13Scoretrak.Config.V2\xca\x02\x13Scoretrak\\Config\\V2\xe2\x02\x1fScoretrak\\Config\\V2\\GPBMetadata\xea\x02\x15Scoretrak::Config::V2b\x06proto3"
 
 var (
 	file_scoretrak_config_v2_config_proto_rawDescOnce sync.Once

@@ -128,8 +128,8 @@ const file_scoretrak_auth_v1_auth_proto_rawDesc = "" +
 	"\rLoginResponse\x12!\n" +
 	"\faccess_token\x18\x01 \x01(\tR\vaccessToken2[\n" +
 	"\vAuthService\x12L\n" +
-	"\x05Login\x12\x1f.scoretrak.auth.v1.LoginRequest\x1a .scoretrak.auth.v1.LoginResponse\"\x00B\xd2\x01\n" +
-	"\x15com.scoretrak.auth.v1B\tAuthProtoP\x01ZHgithub.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/auth/v1;authv1\xa2\x02\x03SAX\xaa\x02\x11Scoretrak.Auth.V1\xca\x02\x11Scoretrak\\Auth\\V1\xe2\x02\x1dScoretrak\\Auth\\V1\\GPBMetadata\xea\x02\x13Scoretrak::Auth::V1b\x06proto3"
+	"\x05Login\x12\x1f.scoretrak.auth.v1.LoginRequest\x1a .scoretrak.auth.v1.LoginResponse\"\x00B\xd1\x01\n" +
+	"\x15com.scoretrak.auth.v1B\tAuthProtoP\x01ZGgithub.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/auth/v1;authv1\xa2\x02\x03SAX\xaa\x02\x11Scoretrak.Auth.V1\xca\x02\x11Scoretrak\\Auth\\V1\xe2\x02\x1dScoretrak\\Auth\\V1\\GPBMetadata\xea\x02\x13Scoretrak::Auth::V1b\x06proto3"
 
 var (
 	file_scoretrak_auth_v1_auth_proto_rawDescOnce sync.Once

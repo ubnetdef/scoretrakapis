@@ -7,7 +7,7 @@
 package propertyv2
 
 import (
-	v1 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/proto/v1"
+	v1 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/proto/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	wrapperspb "google.golang.org/protobuf/types/known/wrapperspb"
@@ -708,8 +708,8 @@ const file_scoretrak_property_v2_property_proto_rawDesc = "" +
 	"\x05Store\x122.scoretrak.property.v2.PropertyServiceStoreRequest\x1a3.scoretrak.property.v2.PropertyServiceStoreResponse\"\x00\x12u\n" +
 	"\x06Update\x123.scoretrak.property.v2.PropertyServiceUpdateRequest\x1a4.scoretrak.property.v2.PropertyServiceUpdateResponse\"\x00\x12\x96\x01\n" +
 	"\x11GetByServiceIDKey\x12>.scoretrak.property.v2.PropertyServiceGetByServiceIDKeyRequest\x1a?.scoretrak.property.v2.PropertyServiceGetByServiceIDKeyResponse\"\x00\x12\x96\x01\n" +
-	"\x11GetAllByServiceID\x12>.scoretrak.property.v2.PropertyServiceGetAllByServiceIDRequest\x1a?.scoretrak.property.v2.PropertyServiceGetAllByServiceIDResponse\"\x00B\xf2\x01\n" +
-	"\x19com.scoretrak.property.v2B\rPropertyProtoP\x01ZPgithub.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/property/v2;propertyv2\xa2\x02\x03SPX\xaa\x02\x15Scoretrak.Property.V2\xca\x02\x15Scoretrak\\Property\\V2\xe2\x02!Scoretrak\\Property\\V2\\GPBMetadata\xea\x02\x17Scoretrak::Property::V2b\x06proto3"
+	"\x11GetAllByServiceID\x12>.scoretrak.property.v2.PropertyServiceGetAllByServiceIDRequest\x1a?.scoretrak.property.v2.PropertyServiceGetAllByServiceIDResponse\"\x00B\xf1\x01\n" +
+	"\x19com.scoretrak.property.v2B\rPropertyProtoP\x01ZOgithub.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/property/v2;propertyv2\xa2\x02\x03SPX\xaa\x02\x15Scoretrak.Property.V2\xca\x02\x15Scoretrak\\Property\\V2\xe2\x02!Scoretrak\\Property\\V2\\GPBMetadata\xea\x02\x17Scoretrak::Property::V2b\x06proto3"
 
 var (
 	file_scoretrak_property_v2_property_proto_rawDescOnce sync.Once

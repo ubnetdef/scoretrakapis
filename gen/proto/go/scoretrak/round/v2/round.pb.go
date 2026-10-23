@@ -7,7 +7,7 @@
 package roundv2
 
 import (
-	v2 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/check/v2"
+	v2 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/check/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
@@ -464,9 +464,9 @@ const file_scoretrak_round_v2_round_proto_rawDesc = "" +
 	"\x17GetLastNonElapsingRound\x12>.scoretrak.round.v2.RoundServiceGetLastNonElapsingRoundRequest\x1a?.scoretrak.round.v2.RoundServiceGetLastNonElapsingRoundResponse\"\x00\x12i\n" +
 	"\x06GetAll\x12-.scoretrak.round.v2.RoundServiceGetAllRequest\x1a..scoretrak.round.v2.RoundServiceGetAllResponse\"\x00\x12l\n" +
 	"\aGetByID\x12..scoretrak.round.v2.RoundServiceGetByIDRequest\x1a/.scoretrak.round.v2.RoundServiceGetByIDResponse\"\x00\x12{\n" +
-	"\fGetLastRound\x123.scoretrak.round.v2.RoundServiceGetLastRoundRequest\x1a4.scoretrak.round.v2.RoundServiceGetLastRoundResponse\"\x00B\xda\x01\n" +
+	"\fGetLastRound\x123.scoretrak.round.v2.RoundServiceGetLastRoundRequest\x1a4.scoretrak.round.v2.RoundServiceGetLastRoundResponse\"\x00B\xd9\x01\n" +
 	"\x16com.scoretrak.round.v2B\n" +
-	"RoundProtoP\x01ZJgithub.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/round/v2;roundv2\xa2\x02\x03SRX\xaa\x02\x12Scoretrak.Round.V2\xca\x02\x12Scoretrak\\Round\\V2\xe2\x02\x1eScoretrak\\Round\\V2\\GPBMetadata\xea\x02\x14Scoretrak::Round::V2b\x06proto3"
+	"RoundProtoP\x01ZIgithub.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/round/v2;roundv2\xa2\x02\x03SRX\xaa\x02\x12Scoretrak.Round.V2\xca\x02\x12Scoretrak\\Round\\V2\xe2\x02\x1eScoretrak\\Round\\V2\\GPBMetadata\xea\x02\x14Scoretrak::Round::V2b\x06proto3"
 
 var (
 	file_scoretrak_round_v2_round_proto_rawDescOnce sync.Once

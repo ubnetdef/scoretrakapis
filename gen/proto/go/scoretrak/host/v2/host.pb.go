@@ -7,8 +7,8 @@
 package hostv2
 
 import (
-	v1 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/proto/v1"
-	v2 "github.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/service/v2"
+	v1 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/proto/v1"
+	v2 "github.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/service/v2"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	wrapperspb "google.golang.org/protobuf/types/known/wrapperspb"
@@ -585,8 +585,8 @@ const file_scoretrak_host_v2_host_proto_rawDesc = "" +
 	"\aGetByID\x12,.scoretrak.host.v2.HostServiceGetByIDRequest\x1a-.scoretrak.host.v2.HostServiceGetByIDResponse\"\x00\x12e\n" +
 	"\x06Delete\x12+.scoretrak.host.v2.HostServiceDeleteRequest\x1a,.scoretrak.host.v2.HostServiceDeleteResponse\"\x00\x12b\n" +
 	"\x05Store\x12*.scoretrak.host.v2.HostServiceStoreRequest\x1a+.scoretrak.host.v2.HostServiceStoreResponse\"\x00\x12e\n" +
-	"\x06Update\x12+.scoretrak.host.v2.HostServiceUpdateRequest\x1a,.scoretrak.host.v2.HostServiceUpdateResponse\"\x00B\xd2\x01\n" +
-	"\x15com.scoretrak.host.v2B\tHostProtoP\x01ZHgithub.com/ScoreTrak/scoretrakapis/gen/proto/go/scoretrak/host/v2;hostv2\xa2\x02\x03SHX\xaa\x02\x11Scoretrak.Host.V2\xca\x02\x11Scoretrak\\Host\\V2\xe2\x02\x1dScoretrak\\Host\\V2\\GPBMetadata\xea\x02\x13Scoretrak::Host::V2b\x06proto3"
+	"\x06Update\x12+.scoretrak.host.v2.HostServiceUpdateRequest\x1a,.scoretrak.host.v2.HostServiceUpdateResponse\"\x00B\xd1\x01\n" +
+	"\x15com.scoretrak.host.v2B\tHostProtoP\x01ZGgithub.com/ubnetdef/scoretrakapis/gen/proto/go/scoretrak/host/v2;hostv2\xa2\x02\x03SHX\xaa\x02\x11Scoretrak.Host.V2\xca\x02\x11Scoretrak\\Host\\V2\xe2\x02\x1dScoretrak\\Host\\V2\\GPBMetadata\xea\x02\x13Scoretrak::Host::V2b\x06proto3"
 
 var (
 	file_scoretrak_host_v2_host_proto_rawDescOnce sync.Once
